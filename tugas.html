@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TUGAS 11 WEB DESIGN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #4f8aac;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   text-align: center;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  text-align: center;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #4f8aac;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h3>Internasionalisasi & Aksesibilitas</h3>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#87CEEB;"><h2>Contact</h2></div>
+  <div class="column middle" style="background-color:white;"><h2>Apa itu Internasionalisasi & Aksesibilitas</h2>Saat ini Internet dan pasar perangkat lunak bersifat global. Internet
+    membuat pengguna melintasi batas budaya dan bahasa yang tak ada
+    habisnya, dengan persyaratan, konvensi, kebiasaan, dan definisi penerimaan
+    masing-masing
+    , Pemahaman dan ingatan dapat ditingkatkan saat informasi disajikan sesuai
+    dengan budaya (Spyridakis dan Fukuoka, 2002).
+    , Untuk membuat suatu produk dapat diterima di seluruh dunia, produk
+    tersebut harus diinternasionalkan. Suatu sistem juga harus dirancang agar
+    dapat digunakan oleh banyak orang yang hampir tidak terbatas, dapat
+    diakses oleh siapa saja yang ingin menggunakannya. Konsep desain yang
+    digunakan untuk mencapai tujuan ini disebut internasionalisasi dan
+    aksesibilitas.</div>
+  <div class="column side" style="background-color:#87CEEB;"><h2>News</h2></div>
+</div>
+
+<div class="footer">
+  <p><small><i>Develop By Ghazali/i></small></p>
+</div>
+
+</body>
+</html>
+</body>
+</html>
